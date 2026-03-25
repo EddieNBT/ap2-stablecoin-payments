@@ -26,11 +26,10 @@ AP2's mandate-based architecture provides the trust and accountability framework
 ## Our AP2 Context
 | Metric | Value |
 |--------|-------|
-| Daily payment volume | $38,000+ |
-| Daily transactions | 130+ |
+| Payment volume | Significant daily transaction volume |
 | Supported stablecoins | USDT, USDC, NUSD |
-| Supported chains | 6 (Ethereum, Tron, BSC, Polygon, Solana, Arbitrum) |
-| Compliance | KYB, KYT, MPC wallet custody |
+| Supported chains | Multi-chain support |
+| Compliance | Full compliance stack |
 | AP2 Interest Form | ✅ Submitted |
 | AP2 Discussion | [#193](https://github.com/google-agentic-commerce/AP2/discussions/193) |
 ## Current Status
