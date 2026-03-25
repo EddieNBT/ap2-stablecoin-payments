@@ -1,0 +1,37 @@
+# AP2 Social Gifting Demo — Configuration
+# Copy to config.yaml and adjust values for your environment.
+
+merchant:
+  name: "SocialApp Gift Shop"
+  id: "merchant-socialapp-001"
+  # In production: path to RSA/EC private key for JWT signing
+  signing_key_path: "./keys/merchant-private.pem"
+
+payment:
+  provider: "nusdpay"
+  api_base_url: "https://api.nusdpay.com/v1"
+  # api_key: "your-api-key-here"  # Do not commit real keys
+  
+  default_token: "USDT"
+  default_chain: "tron"
+  
+  supported_tokens:
+    - "USDT"
+    - "USDC"
+  
+  supported_chains:
+    - chain: "tron"
+      confirmations_required: 19
+      avg_block_time_ms: 3000
+    - chain: "bsc"
+      confirmations_required: 15
+      avg_block_time_ms: 3000
+    - chain: "polygon"
+      confirmations_required: 128
+      avg_block_time_ms: 2000
+
+platform:
+  name: "SocialApp"
+  gift_catalog_url: "https://api.socialapp.example/gifts"
+  # Fee charged by NUSD Pay (percentage)
+  processing_fee_pct: 1.0
