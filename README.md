@@ -40,6 +40,7 @@ AP2's mandate-based architecture provides the trust and accountability framework
 - [x] Mandate field mapping (NUSD Pay ↔ AP2)
 - [x] Stablecoin gap analysis
 - [x] Sample: Human Present gifting flow
+- [x] Contributed stablecoin payments documentation to AP2 official repo ([#196](https://github.com/google-agentic-commerce/AP2/pull/196))
 - [ ] x402 Facilitator integration
 - [ ] Human Not Present flow (pending AP2 v1.x)
 - [ ] Production deployment
