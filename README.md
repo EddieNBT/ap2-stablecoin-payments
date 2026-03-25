@@ -32,6 +32,8 @@ AP2's mandate-based architecture provides the trust and accountability framework
 | Compliance | Full compliance stack |
 | AP2 Interest Form | ✅ Submitted |
 | AP2 Discussion | [#193](https://github.com/google-agentic-commerce/AP2/discussions/193) |
+| AP2 Partners PR | [#195](https://github.com/google-agentic-commerce/AP2/pull/195) |
+| AP2 Docs Contribution | [#196](https://github.com/google-agentic-commerce/AP2/pull/196) |
 ## Current Status
 🟡 **Active exploration** — We are mapping AP2 mandates to our existing payment flows and building sample implementations. Contributions and feedback are welcome.
 ### Roadmap
